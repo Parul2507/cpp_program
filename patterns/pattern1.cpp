@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-    int row = 4, col = 4;
-    for (int i = 0; i < row; i++)
+    int n = 5;
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < col; j++)
+        for (int j = 0; j < n; j++)
         {
             cout << "*";
         }
