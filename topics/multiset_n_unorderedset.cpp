@@ -15,9 +15,9 @@ int main()
     cout << endl;
 
     // ms.erase(2); // this will erase all occurence
-    // for(auto it : ms)
+    // for(auto x : ms)
     // {
-    //     cout << it << " ";
+    //     cout << x << " ";
     // }
     // cout << endl;
 
@@ -27,19 +27,19 @@ int main()
         cout << it << " ";
     }
     cout << endl; 
+
     // rest all function are same as set
 
-
     unordered_set<int> us; // element are not sorted but is unique
-    us.insert(10);         // does not support upperbound and lowerbound function
+    us.insert(10);         // does not support upperbound and lowerbound function`
     us.insert(10);
     us.insert(2);
     us.insert(1);
     us.insert(19);
 
-    for (auto it : us)
+    for (auto x : us)
     {
-        cout << it << " ";
+        cout << x << " ";
     }
     cout << endl;
 }

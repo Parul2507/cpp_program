@@ -9,7 +9,7 @@ int main()
     v.emplace_back(2);  // emplace_back is faster than push back
 
     vector <pair <int, int>> v1;
-    v1.push_back({1, 2});
+    v1.push_back({1, 2});  // Initialiser List, object creation using initialiser list
     v1.emplace_back(1, 2); // no need to put {} in empace_back
 
     vector <int> v2(5, 100); // this will create a vector v2 of size 5 with 100 as its element like {100, 100, 100, 100, 100}
@@ -28,14 +28,14 @@ int main()
         cout << *i << " ";
     }
 
-    //  for each loop
-    // for(auto it : vec)
+    // for each loop
+    // for(auto x : vec)
     // {
-    //     cout << it << endl;
+    //     cout << x << endl;
     // }
 
 
-    // Deleting elementfrom the vector
+    // Deleting element from the vector
     //{10, 20, 30, 40, 50}
     // vec.erase(vec.begin()+1);  {10, 30, 40, 50}
 
