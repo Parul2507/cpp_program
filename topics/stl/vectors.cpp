@@ -28,6 +28,8 @@ int main()
         cout << *i << " ";
     }
 
+    // we also have a capacity function
+
     // for each loop
     // for(auto x : vec)
     // {
